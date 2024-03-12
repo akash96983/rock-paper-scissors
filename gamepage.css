@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./assets/bg.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+.boxes{
+    height: 420px;
+    width: 400px;
+    border: 2px solid #FFD14A;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#compbox{
+    padding-bottom: 100px;
+}
+.sign img{
+    height: 80px;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.sign:hover{
+   cursor: pointer;
+}
+
+#vsimg{
+    height: 400px;
+}
+button{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color:rgba(194, 143, 48, 0.562);
+    border: 2px solid rgb(194, 143, 48);
+    width: 150px;
+    padding: 10px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(194, 143, 48);
+
+}

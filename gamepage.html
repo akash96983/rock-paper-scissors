@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="gamepage.css">
+</head>
+<body>
+    <h1><span id="score1">0</span>-<span id="score2">0</span></h1>
+    <div class="container">
+        <div class="boxes">
+            <h2>You</h2>
+                <img src="" id="you-img">
+            <div class="sign">
+                <img onclick="rockfunction()" src="assets/rock-logo.png" alt="">
+                <img onclick="paperfunction()" src="assets/paper-logo.png" alt="">
+                <img onclick="scissorsfunction()" src="assets/scissors-logo.png" alt="">
+            </div>
+        </div>
+        <img src="assets/vs.png" alt="" id="vsimg">
+        <div class="boxes" id="compbox">
+            <h2>Computer</h2>
+            <img src="" alt="" id="comp-img">
+        </div>
+    </div>
+    <h2 id="win-msg"></h2>
+    <button id="play-again">PLAY AGAIN</button>
+<script src="gamepage.js"></script>
+</body>
+</html> 
